@@ -1,0 +1,80 @@
+.card {
+  background-color: #ffff;
+  /* height: 750px; */
+  width: 600px;
+  border-radius: 12px;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-picture {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.title {
+  font-family: Serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.info {
+  max-width: 100%;
+  background-color: #fff5fa;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.info-title {
+  color: #7b284f;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+}
+.bold {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+}
+.secondary-title {
+  color: #7b284f;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Young Serif", serif;
+}
+.line {
+  border-bottom: solid 1px black;
+  opacity: 10%;
+  height: 1px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+.table {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  row-gap: 10px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table-border {
+  border-bottom: 1px solid rgb(216, 213, 213);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text_font {
+  color: #854632;
+  font-family: "Young Serif", serif;
+}
